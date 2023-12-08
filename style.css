@@ -5,26 +5,59 @@ body{
     color: white;
     
 }
-h1,p{
+.heading,p{
     text-align: center;
 }
 .input-area{
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 20% 20%;
     gap: 20px;
+    
 
 }
 input{
     padding:10px
 }
-button{
-    width: 200px;
-    height: 30px;
+#Enter{
     background-color: rgb(16, 16, 231);
     color: white;
     border-radius: 10px;
     font-weight: bold;
 }
+#Clear{
 
+        background-color:red;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+
+}
+.tasks{
+    display: grid;
+    grid-template-columns: 35% 50%;
+}
+#div1{
+    display: grid;
+    grid-template-columns:5% 20% 20% 15% 15%;
+    gap: 20px;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+#button1{
+    background-color: rgb(16, 16, 231);
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+#button2{
+    background-color:red;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
